@@ -2,83 +2,65 @@
 
 ### Author: David Guthmann
 
-github: https://github.com/Dguthmann/Cuprum-Center  
-livesite: TBA  
+github: https://github.com/Dguthmann/Third-Tricity-Bank-Account-View/  
+livesite: https://third-tricity-bank.herokuapp.com/  
 
 
 ## List of Contents
 
 TBA
-<!-- server.js  
+server.js  
 package.json  
 package-lock.json  
 README.md  
 LICENSE
-### config  
-connection.js  
-orm.js  
-### controllers  
-burgerController.js  
-### db  
-schema.sql  
-seeds.sql  
+screenshot.png
 ### models  
-burger.js  
+transaction.js  
 ### public
-#### assets  
-##### css  
-style.css  
-##### js  
-burgers.js  
-##### pics  
-burger.jpg  
-carlslogo.gif  
-screenshot.png  
-screenshot2.png  
-### views  
-index.handlebars  
-#### layouts  
-main.handlebars  
-#### partials
-##### burgers
-burger-block.handlebars   -->
+db.js
+index.html
+index.js
+manifest.webmanifest
+service-worker.js
+style.css
+##### icons  
+icon-192x192.png  
+icon-512x512.png  
+
 
 
 
 ## Installation
 you will need the following additional npms to run this project:  
 express  
-express-handlebars  
+compression  
 mongoose  
 morgan  
-handlebars-helper-css (for further development)
+lite-server  
 
 
 ## Basic Overview of Project
 
-The goal of the project is to model a fitness center where users can make an workout, add and delete excercises to a workout, and remove finished workouts.  
+To add a service worker to an account manager. 
 
 
 ## Screenshot of Project
 
-TBA
-<!-- ![Site Screenshot](./public/assets/pics/screenshot.png)   -->
-<!-- ![Site Screenshot](./public/assets/pics/screenshot2.png)   -->
+![Site Screenshot](screenshot.png)  
+
 
 
 ## Resources Used
 
-Zach Auerbach for some partials review.  
+Zach Auerbach for some partials review, and deployment help  
 
 
 ## Further Development Plans
 
-TBA
+This was a one off assignment, the mongoDB is odd to deploy, will need more practice
 
 
 ## Changelog
-
-2020-11-01: Controller Creation, public folder files, deployment
-2020-10-31: ReadME formatting, Views creation  
-2020-10-30: Reviewing code, and frontend planning  
-2020-10-29: Creation of models, and base server file  
+2020-11-04: Deployment and bug fixes  
+2020-11-03: Importation of base code, writing of service worker, manifest, index.html changes, and ReadME formatting
